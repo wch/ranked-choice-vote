@@ -43,6 +43,10 @@ calculate_ranked_choice <- function(dat, round = 1) {
   # Drop those who got the lowest number of first-rank votes
   # (can be more than one)
   lowest_votes <- min(counts$votes)
+  if (nrow(counts) > 1 && all(counts$votes == lowest_votes)) {
+    cat(wrap("Tie between ", paste(counts$name, collapse = ", "), "."))
+    return(invisible(counts$name))
+  }
   drop_names <- counts$name[counts$votes == lowest_votes]
   cat(wrap("Dropping candidate(s) with ", lowest_votes, " votes:"))
   cat("\n")
