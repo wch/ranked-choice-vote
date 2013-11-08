@@ -1,3 +1,7 @@
+wrap <- function(..., sep = "", width = 80) {
+  paste(strwrap(paste(..., sep = sep)), collapse = "\n")
+}
+
 calculate_ranked_choice <- function(dat, round = 1) {
   # Replace any empty entries with NA
   dat$V1[dat$V1 == ""] <- NA
@@ -20,8 +24,10 @@ calculate_ranked_choice <- function(dat, round = 1) {
   # Remove NAs
   drop_names <- drop_names[!is.na(drop_names)]
   if (length(drop_names) > 0) {
-    cat("Dropping candidate(s) with zero 1st rank votes, but have some 2nd and 3rd-rank votes:\n",
-        paste(drop_names, collapse = ", "), "\n\n")
+    cat(wrap("Dropping candidate(s) with zero 1st rank votes, but have some 2nd and 3rd-rank votes:"))
+    cat("\n")
+    cat(wrap(paste(drop_names, collapse = ", ")))
+    cat("\n\n")
   }
 
   # Get counts of first-rank votes for each candidate -------------------------
@@ -36,23 +42,28 @@ calculate_ranked_choice <- function(dat, round = 1) {
 
   # If we've reached the end
   if (nrow(counts) <= 2) {
-    cat("Winner is ", counts$name[1], ", with ", counts$votes[1], " votes",
-        sep = "")
+    cat(wrap(
+      "Winner is ", counts$name[1], ", with ", counts$votes[1],
+      " votes.", sep = ""
+    ))
+    cat("\n")
     return(invisible(counts$name[1]))
   }
 
   # ---------------------------------------------------------------------------
   # Drop those who got the lowest number of first-rank votes
   # (can be more than one)
-  lowest_votes <- counts$votes[nrow(counts)]
-  lowest_names <- counts$name[counts$votes == lowest_votes]
-  cat("Dropping candidate(s) with", lowest_votes, "votes:",
-      paste(lowest_names, collapse = ", "), "\n\n")
+  lowest_votes <- min(counts$votes)
+  drop_names <- counts$name[counts$votes == lowest_votes]
+  cat(wrap("Dropping candidate(s) with ", lowest_votes, " votes:"))
+  cat("\n")
+  cat(wrap(paste(drop_names, collapse = ", ")))
+  cat("\n\n")
 
   # Remove all instances of the lowest vote-getters
-  dat$V1[which(dat$V1 %in% lowest_names)] <- NA
-  dat$V2[which(dat$V2 %in% lowest_names)] <- NA
-  dat$V3[which(dat$V3 %in% lowest_names)] <- NA
+  dat$V1[which(dat$V1 %in% drop_names)] <- NA
+  dat$V2[which(dat$V2 %in% drop_names)] <- NA
+  dat$V3[which(dat$V3 %in% drop_names)] <- NA
 
   # If any NA's in V1 or V2, shift names over from next column.
   # If a voter's first-rank vote was removed, their second-rank vote is now
