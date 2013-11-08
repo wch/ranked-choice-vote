@@ -1,5 +1,5 @@
-Dropping candidate(s) with zero 1st rank votes, but have some 2nd and 3rd-rank
-votes:
+Dropping candidate(s) with zero 1st rank votes, but have some
+2nd and 3rd-rank votes:
 Fred
 
 ==== Round 1 ====

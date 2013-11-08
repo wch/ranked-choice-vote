@@ -41,13 +41,14 @@ calculate_ranked_choice <- function(dat, round = 1) {
   print(counts, row.names = FALSE)
 
   # If we've reached the end
-  if (nrow(counts) <= 2) {
+  if (max(counts$votes) > sum(counts$votes)/2) {
+    maxrow <- counts$votes == max(counts$votes)
     cat(wrap(
-      "Winner is ", counts$name[1], ", with ", counts$votes[1],
+      "Winner is ", counts$name[maxrow], ", with ", counts$votes[maxrow],
       " votes.", sep = ""
     ))
     cat("\n")
-    return(invisible(counts$name[1]))
+    return(invisible(counts$name[maxrow]))
   }
 
   # ---------------------------------------------------------------------------
