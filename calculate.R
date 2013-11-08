@@ -8,30 +8,17 @@ calculate_ranked_choice <- function(dat, round = 1) {
   dat$V2[dat$V2 == ""] <- NA
   dat$V3[dat$V3 == ""] <- NA
 
-  # Drop those from V2 and V3 who didn't even appear in V1 --------------------
-  v1_names <- unique(dat$V1)
-
-  drop_idx <- !(dat$V2 %in% v1_names)
-  drop_v2_names <- unique(dat$V2[drop_idx])
-  dat$V2[drop_idx] <- NA
+  # Get names of all candidates
+  all_names <- unique(c(as.character(dat$V1),
+                        as.character(dat$V2),
+                        as.character(dat$V3)))
+  all_names <- all_names[!is.na(all_names)]
+  dat$V1 <- factor(dat$V1, levels = all_names)
+  dat$V2 <- factor(dat$V2, levels = all_names)
+  dat$V3 <- factor(dat$V3, levels = all_names)
   
-  drop_idx <- !(dat$V3 %in% v1_names)
-  drop_v3_names <- unique(dat$V3[drop_idx])
-  dat$V3[drop_idx] <- NA
-
-  # Dropping those with zero votes
-  drop_names <- c(drop_v2_names, drop_v3_names)
-  # Remove NAs
-  drop_names <- drop_names[!is.na(drop_names)]
-  if (length(drop_names) > 0) {
-    cat(wrap("Dropping candidate(s) with zero 1st rank votes, but have some 2nd and 3rd-rank votes:"))
-    cat("\n")
-    cat(wrap(paste(drop_names, collapse = ", ")))
-    cat("\n\n")
-  }
-
   # Get counts of first-rank votes for each candidate -------------------------
-  counts <- as.data.frame(table(dat$V1), stringsAsFactors = FALSE)
+  counts <- as.data.frame(table(dat$V1))
   names(counts) <- c("name", "votes")
   # Sort by votes
   counts <- counts[order(counts$votes, decreasing = TRUE), ]
@@ -44,8 +31,9 @@ calculate_ranked_choice <- function(dat, round = 1) {
   if (max(counts$votes) > sum(counts$votes)/2) {
     maxrow <- counts$votes == max(counts$votes)
     cat(wrap(
-      "Winner is ", counts$name[maxrow], ", with ", counts$votes[maxrow],
-      " votes.", sep = ""
+      "Winner is ", counts$name[maxrow], ", with ",
+      round(counts$votes[maxrow] / sum(counts$votes) * 100, 2),
+      "% of the votes in the last round.", sep = ""
     ))
     cat("\n")
     return(invisible(counts$name[maxrow]))
@@ -71,6 +59,7 @@ calculate_ranked_choice <- function(dat, round = 1) {
   # treated as their first-rank vote.
   na_idx <- is.na(dat$V2)
   dat$V2[na_idx] <- dat$V3[na_idx]
+  dat$V3[na_idx] <- NA
   na_idx <- is.na(dat$V1)
   dat$V1[na_idx] <- dat$V2[na_idx]
 

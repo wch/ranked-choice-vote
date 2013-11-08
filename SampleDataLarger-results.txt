@@ -1,5 +1,467 @@
-Dropping candidate(s) with zero 1st rank votes, but have some
-2nd and 3rd-rank votes:
+==== Round 1 ====
+                              name votes
+                               RYB  4130
+                               KOL  2105
+                               FLO  1064
+                               FRA   937
+                               CLA   812
+                               FIS   530
+                               LOM   380
+                               EVE   291
+                               MCG   206
+                               CAR   190
+                               WIL   127
+                        BOB MILLER    45
+                  PETER MCLAUGHLIN     9
+                     ROBERT MILLER     7
+                 NONE OF THE ABOVE     4
+                    BOB MILLER NRP     3
+                   BOB MILLER, NRP     3
+                       DORON CLARK     3
+                     LISA MCDONALD     3
+              SHARON SAYLES BELTON     3
+                      MICKEY MOUSE     2
+              SHARON SAYLES-BELTON     2
+                        STEVE MINN     2
+                      A.M. RAHAMAN     1
+                       AL STANBURY     1
+                        ANYA BUSCH     1
+                 ANYBODY BUT RYBAK     1
+                       ANYONE ELSE     1
+                    ARVONNE FRASER     1
+                   BLAKE W. REIMER     1
+         BOB MILLER (NRP DIRECTOR)     1
+             BOB MILLER OF THE NRP     1
+                         BOB NOBLE     1
+                       BRUCE MARSH     1
+                 C. CHARLES CARUSO     1
+                       CHAD SNYDER     1
+                     CHRIS COLEMAN     1
+                   CHRISTIAN SANDE     1
+                      CLARK THOMAS     1
+             CRAMPTON, LARA NORKUS     1
+                      DALE MUSTFUL     1
+                        DAN BROPHY     1
+                      DAVE BICKING     1
+            DAVID GILBERT-PEDERSON     1
+                    DAVID SHEGSTAD     1
+                    DAWN ERLANDSON     1
+                       DICK CHENEY     1
+                        DON FRASER     1
+                        ELLEN KAY      1
+                      ERROL KANTOR     1
+                     FARHEEN HAKIM     1
+            FMR SEN NORMAN COLEMAN     1
+                  FREDERICK HEFLIN     1
+                  GARRISON KEILLOR     1
+                    GARY ALEXANDER     1
+                   GARY R. MILLEUR     1
+                             GOOFY     1
+                       HAMID KARZI     1
+                      JAMES HURRLE     1
+                        JAMES ROWE     1
+                  JAMES STROUD JR.     1
+                     JARVIS WRIGHT     1
+                      JAYMIE KELLY     1
+                    JAYSON HOCKERT     1
+                        JEFF EDMAN     1
+                    JEFF SCHROEDER     1
+                     JENNY WILLARD     1
+                         JIM COHEN     1
+                          JOE BOVE     1
+                  JOHN D. BORCHERT     1
+                       JOHN SATHER     1
+                       JOHN TELMAN     1
+                  KEITH DVORAK JR.     1
+                          KELLIHER     1
+                        KEN AVIDOR     1
+                          KEN RICH     1
+                    KENNETH ZIMMER     1
+             KEVIN RICHARD TERRELL     1
+                       LAPRACE ALI     1
+                 LINDA G RASMUSSEN     1
+                     LIZ WIELINSKI     1
+                     LIZARD PEOPLE     1
+                           M. CALI     1
+                        MAC CHEESE     1
+                       MARK ANDREW     1
+                       MARK DAYTON     1
+                  MARK ENGEBRETSON     1
+                       MARK KAPLAN     1
+                     MATTHEW CRAIG     1
+                     MICHAEL ARETT     1
+                      MICHAEL BOHO     1
+                     MICHAEL GOULD     1
+                    MICHAEL HENLEY     1
+                    MICHAEL JULIUS     1
+            MIDTOWN FARMERS MARKET     1
+                    NATHAN WATTERS     1
+                            NO ONE     1
+                             OLIVE     1
+                         ORA HOKES     1
+                             OTHER     1
+                         PAT SCOTT     1
+                    PATRICIA SCOTT     1
+                       PAUL OSTROW     1
+              PAUL THOMAS WILLIAMS     1
+                 PETER MACLAUGHLIN     1
+                 PETER MC LAUGHLIN     1
+                 PETER MCGLAUGHLIN     1
+                  RANDALL DAVIDSON     1
+                  RANDALL URLACHER     1
+                     RENE STANDISH     1
+                        REPUBLICAN     1
+               ROBERT "BOB" MILLER     1
+                 ROBERT MILLER NRP     1
+                   ROBERT THOMPSON     1
+                     RODNEY LOSSON     1
+                     RORY S. WEISS     1
+                     RUSSELL BAKER     1
+                       RUTH HANSON     1
+                              RYB      1
+                      SGT. SHRIVER     1
+                     STEVEN BELTON     1
+                    THERESA HAUSER     1
+                   TIMOTHY JACKSON     1
+                      TODD JOHNSON     1
+                     TOM MATOUSHEK     1
+                     TRICIA DEHLER     1
+                        VERN GAGNE     1
+                  WAVERLEY DEVRIES     1
+                              YHWH     1
+                 PERER MACLAUGHLIN     0
+                    ERIK STROMBERG     0
+                 PHILLIP ESSINGTON     0
+                  ANY CONSERVATIVE     0
+                     ANYONE BUT RT     0
+                          BOB FINE     0
+                     CLIFF JOHNSON     0
+                      CONSERVATIVE     0
+                     DAVID WIESTER     0
+                       FRANK ZAPPA     0
+                        GLENN BECK     0
+                      GLENN SPANDE     0
+                    IRFAN CHAUDHRY     0
+                       JODY HARMON     0
+                    RENEE REWITZER     0
+            REVERAND JERRY MCAFFEE     0
+                  RON EIBENSTEINER     0
+                     GEORGE W BUSH     0
+                      NORM COLEMAN     0
+                     ANITA DUCKOR      0
+                       DICK WESTBY     0
+                      CARLA PULLES     0
+                        MICK KELLY     0
+                     RODNEY WILSON     0
+                         SALLY WAY     0
+                     ANDREW POMROY     0
+                        BUGS BUNNY     0
+                            E ASTE     0
+                    NURI AL-MALAKI     0
+                  ISABEL SCHROEDER     0
+                        GORGE COLE     0
+                               LOM     0
+                     PHILLIP STERN     0
+                      ANDREW NEARY     0
+                         ART CLARK     0
+                  BARB DAVIS WHITE     0
+                 BARBARA STEINBERG     0
+                    C. R. GUELCHER     0
+                      CHLOE LARSON     0
+                    CHRIS GUELCHER     0
+                  CHRISTI PEDERSEN     0
+                     DAVE SHEGSTAD     0
+                     DAVID ANCELET     0
+                   DAVID L SWANSON     0
+                    FARKEEN HAKEEM     0
+                       GEORGE BUSH     0
+                          J. F. K.     0
+                         LUKE BOYD     0
+                    MADALYN LIOCCI     0
+                       NOR COLEMAN     0
+                        REGGIE WOO     0
+                     RICH PETERSON     0
+                        ROBERT RUE     0
+                 TOBLERONE SHINOBI     0
+                 TODD J. EBERHARDY     0
+                   V. VANDER WEIDE     0
+                   CLAIRE E PIERCE     0
+                           CUTUHLU     0
+                IRV S NONMONOTONIC     0
+                         JOE MAUER     0
+                       RICK ASTLEY     0
+                  PETER MAHAUGHLIN     0
+              A BLIND 3 LEGGED DOG     0
+                        ADAM FLOOD     0
+                      ADAM JOHNSON     0
+                ALY FASSETT CARMAN     0
+                           AQUAMAN     0
+               BARBARA L. SULLIVAN     0
+                        BOB WILSON     0
+                       BRANT VLSAK     0
+                        BRYAN WOOD     0
+                           BUTILKA     0
+                       CARRIE WADE     0
+                   CHARITY LUSTECK     0
+                    CLARE L RITTER     0
+                       COREY HINES     0
+                    D.SCOTT DIBBLE     0
+                       DAN POPELKA     0
+                        DAN WEXLER     0
+                      DARIN REIDEL     0
+                    DAVID STRICHEZ     0
+                      DENIS WAGNER     0
+                       DIANE LILLY     0
+                              FIS      0
+                       GIL BESSARD     0
+              JACKIE CHERRY HOLMES     0
+                     JAMES MATCHEN     0
+                       JAMES REGAN     0
+                        JEN GALLUS     0
+                       JOE JOHNSON     0
+                        JOHN HAYES     0
+                     JOHN MONTAGUE     0
+                     JOSHUA E BERG     0
+                      KARL BROPHEY     0
+                       L J KRIEGER     0
+                          L. OLSON     0
+                      LEAH LOFGREN     0
+                   MACKENZIE LOBBY     0
+                       MARY PARKER     0
+                 MATHILDE SULLIVAN     0
+                       MATT BAKKOM     0
+                      MATTHEW VORK     0
+                      MEREDITH FOX     0
+                       MERLE BENCH     0
+                 MICHAEL BJORNBERG     0
+                    MICHAEL T'KECH     0
+                        MIKE REGAN     0
+                                MJ     0
+                 MONICA L. HERRERA     0
+                    NATHAN GABRIEL     0
+                      NATHAN SOUER     0
+                      NATHAN SOUSE     0
+                  NO RANKED SYSTEM     0
+                              NONE     0
+                OMAR THE ALLIGATOR     0
+                    PATRICK KEENAN     0
+                  PETER MCLAUPHLIN     0
+                     RACHEL MADDOW     0
+                      RALPH MAURER     0
+                       ROB JOHNSON     0
+                  ROBERT LILLIGREN     0
+                     ROBIN GARWOOD     0
+                     ROBIN SIMPSON     0
+                     RODNEY LOSSOW     0
+                     ROWELL ALSTON     0
+                  SAM ROBERT SEELY     0
+               SEBASTIAN VANNAVONG     0
+                      TAD BORNHOFT     0
+                        TED HOLMES     0
+                      TERI BENTSON     0
+                         TIM CASEY     0
+                   TIM MC CONVILLE     0
+                      TIM TRUJILLO     0
+                       TISH RIVERA     0
+                          TOM LONG     0
+                       TOM MADDEN      0
+                        WENDY KNOX     0
+                         LADY GAGA     0
+                    TERESA JOHNSON     0
+                    JOANNE KAUFMAN     0
+                            BASTET     0
+                        CAROL PASS     0
+                       RIED LABEAU     0
+                     JESSE VENTURA     0
+                        SCOTT HOLM     0
+                       DAN L. WITT     0
+                     THOMAS WALKER     0
+                       DAVID HOBAN     0
+                       CHRIS BAKER     0
+                       LYNN HARMON     0
+                   ADAM  V JOHNSON     0
+                        JASON KAAS     0
+                    JASON PEDERSEN     0
+                    MICHAEL SAVAGE     0
+                 MICHAEL STENQUIST     0
+               FISCAL CONSERVATIVE     0
+                         JOHN GALT     0
+                        JON POWELL     0
+                     RACHEL STRAND     0
+                 KEVIN BAUMGARTNER     0
+                      JESUS CHRIST     0
+               LAURIE EIBENSTEINER     0
+                      JASON FOSSUM     0
+                 JOHN VAN HEUVELEN     0
+                          RON PAUL     0
+                      AL MCFARLANE     0
+                       TERRY LEWIS     0
+                 ANNA SCHERSCHLIGT     0
+                JACKIE CHERRYHOMES     0
+                      NATHAN GARTZ     0
+                     PAUL BUCHANON     0
+                    BRIAN HOKANSON     0
+                     ANNETTE DAVIS     0
+          ROSEMARY NEVILS-WILLIAMS     0
+           ROSEMARY NEWIS WILLIAMS     0
+                 ROSEMARY WILLIAMS     0
+                       SILAS MEANS     0
+                         MAX SPAWN     0
+                   BRIAN SHEKLETON     0
+                        DAFFY DUCK     0
+                  PAUL A. AUGUSTON     0
+                            A CANO     0
+                   JENNIFER HAUGEN     0
+                        GARY OGREN     0
+                 ROSALIND SULLIVAN     0
+                         ABU MAZEN     0
+                      KAREN BROOKS     0
+                      JENNY KRUGER     0
+                       BRETT FAVRE     0
+                   CHUCK V. FALREY     0
+                EDWARD BAGGENSTOSS     0
+                      FRED HOIBERG     0
+                       GREG JANSNA     0
+                      KEVIN HANSON     0
+                   LARS REINERTSEN     0
+                    SHARON BARNARD     0
+                 THEODORE ERICKSON     0
+                       MAX SPECTOR     0
+                   VILLIAGE PEOPLE     0
+                      JOHN SUNDAHL     0
+                      NICK LETHART     0
+                         PAT SMITH     0
+                       TIM MAHONEY     0
+                     BILL O'REILLY     0
+                   CHARLES JOHNSON     0
+                                ME     0
+           NANDI (GERMAN SHEPHERD)     0
+                    ADAM LIVERMORE     0
+                  DANIEL J. PETERS     0
+                     JERRY SUNDAHL     0
+                       LYNN HAUGER     0
+                       TROY KESTER     0
+                             SWINE     0
+                    MARK STEINLEIN     0
+                     DENNIS PRAGER     0
+                     JAMES WINKELS     0
+                         SPIDERMAN     0
+                    NATHAN CLIFTON     0
+                         MR. MAGOO     0
+              NATHAN ALLAN CLIFTON     0
+        DR. STEPHEN T COLBERT, DFA     0
+                     JOHN SULZBACH     0
+                    RICHARD ERDALL     0
+                     ROBB BLANCHAR     0
+                    ANTHONY MAUREN     0
+                       BRAD MILLER     0
+                  EUGENE MISKOWIEC     0
+                GREGORY WASHINGTON     0
+                        JASON BILL     0
+                 MICHAEL H. LITMAN     0
+                        SEAN WELCH     0
+                   JEROME A RITTER     0
+                   FRANK HORNSTEIN     0
+                      STEPHEN GRAY     0
+                  JOSEPH BARISONZI     0
+                     SCOTT SEEKINS     0
+                    CORRINA ZOLTAI     0
+                       DEB SHERMAN     0
+                       EAGAN HEATH     0
+                       GREEN PARTY     0
+                      J. FRED CASE     0
+                  JOEL B. BIERBACH     0
+                      JUSTIN HENRY     0
+                      AMANDA MILLS     0
+                      ANN DE GROOT     0
+                     ASPEN DEVRIES     0
+                    ISABELLE DENNY     0
+                 KEVIN MIDDLEBROOK     0
+                        NONE ABOVE     0
+                     PATRICK GLYNN     0
+                       ROB HENSLEY     0
+        WALTER "ROCKY" ROCKENSTEIN     0
+                     WILLIAM BUNDY     0
+                    WILLIAM SEELEY     0
+                 YUSEFA L. JOHNSON     0
+                     BILL HELGESON     0
+                         DREWRAFFE     0
+                       GARY HARTKE     0
+                  JASON BLUMENTHAL     0
+                     JOHN A. KELLY     0
+                   MARTIN SCHIRBER     0
+                      MATT TALBERG     0
+                       MIKE BRANDT     0
+                            MYSELF     0
+                  PETER J. JOHNSON     0
+          REBECCA ERICKSON RAMGREN     0
+                               TOM     0
+                    SONDRA SAMUELS     0
+                        MIKE LOGAN     0
+                  JOHN BENNINGHOLT     0
+                      BRUCE WADMAN     0
+                        CAM GORDON     0
+                  CHARLES NEERLAND     0
+                            ED KIM     0
+                      FIX AUTOMARK     0
+                       GARY SCHIFF     0
+                        JOHN HEALY     0
+                      JOHN VCHULEK     0
+                  LINDSEY DIEDRICH     0
+                   MARTIN P KELLER     0
+                      MARV DAVIDOU     0
+                        PAT BOULAY     0
+ RACHEL HOITZER COMMON SENSE PARTY     0
+                        RYAN OLSEN     0
+              SUSAN M. JAGODZINSKI     0
+                    TINA R SCHAUER     0
+                     MARY LOGELAND     0
+                           D.SMITH     0
+                    ANDREW LAVALLA     0
+                   ANTHONY THOMSON     0
+                         BEN MOORE     0
+                      BRIAN SOSTEK     0
+                CHRISTOPHER WALKER     0
+                          F. S. M.     0
+                   GALINA LEVINGER     0
+                     JACKIE O'SHEA     0
+               JACQUELINE ERICKSON     0
+                      JOHN MURDOCH     0
+             JOHN REMINGTON GRAHAM     0
+                        LEE BAUERS     0
+                        MARK DYAAS     0
+                        MIKE GOULD     0
+                      MING THE CAT     0
+             MING THE NEIGHBOR CAT     0
+                      MINNIE MOUSE     0
+                      NADIA LANDON     0
+                     NICHOLAS HAIG     0
+                SAM GRAPEVINE JEDI     0
+                      SARAH KIEFER     0
+                        SETH SWEEP     0
+                    SHAWN MCGREEVY     0
+                   STEVEN SCHWARTZ     0
+                        JOHN JESKE     0
+                        ANIA URBAN     0
+                         MIKE DUST     0
+                      EDWARD LUNAT     0
+                    ANY REPUBLICAN     0
+                       SARAH BENCH     0
+                       BOB CORRICK     0
+                             BLANK     0
+                  JENNIFER GABRIEL     0
+                      KATE BENTSON     0
+                   TOM FRATTALLONE     0
+                  JERRY VAN CLEAVE     0
+                       PATTY CASEY     0
+                        JOE MUERAY     0
+                     ANDREW PLESKO     0
+                        JOY RIVERA     0
+                 RICHARD ALLENDORF     0
+                          JAN REED     0
+                            PRINCE     0
+                         JIM YOUNG     0
+Dropping candidate(s) with 0 votes:
 PERER MACLAUGHLIN, ERIK STROMBERG, PHILLIP ESSINGTON, ANY
 CONSERVATIVE, ANYONE BUT RT, BOB FINE, CLIFF JOHNSON,
 CONSERVATIVE, DAVID WIESTER, FRANK ZAPPA, GLENN BECK, GLENN
@@ -60,32 +522,31 @@ MILLER, EUGENE MISKOWIEC, GREGORY WASHINGTON, JASON BILL,
 MICHAEL H. LITMAN, SEAN WELCH, JEROME A RITTER, FRANK
 HORNSTEIN, STEPHEN GRAY, JOSEPH BARISONZI, SCOTT SEEKINS,
 CORRINA ZOLTAI, DEB SHERMAN, EAGAN HEATH, GREEN PARTY, J. FRED
-CASE, JOEL B. BIERBACH, JUSTIN HENRY, NATHAN SOUER, AMANDA
-MILLS, ANN DE GROOT, ASPEN DEVRIES, ISABELLE DENNY, KEVIN
-MIDDLEBROOK, NONE, NONE ABOVE, PATRICK GLYNN, ROB HENSLEY,
-WALTER "ROCKY" ROCKENSTEIN, WILLIAM BUNDY, WILLIAM SEELEY,
-YUSEFA L. JOHNSON, BILL HELGESON, DREWRAFFE, GARY HARTKE,
-JASON BLUMENTHAL, JOHN A. KELLY, MARTIN SCHIRBER, MATT
-TALBERG, MIKE BRANDT, MYSELF, PETER J. JOHNSON, REBECCA
-ERICKSON RAMGREN, TOM, SONDRA SAMUELS, MIKE LOGAN, JOHN
-BENNINGHOLT, BRUCE WADMAN, CAM GORDON, CHARLES NEERLAND, ED
-KIM, FIX AUTOMARK, GARY SCHIFF, JOHN HEALY, JOHN VCHULEK,
-LINDSEY DIEDRICH, MARTIN P KELLER, MARV DAVIDOU, PAT BOULAY,
-RACHEL HOITZER COMMON SENSE PARTY, RYAN OLSEN, SUSAN M.
-JAGODZINSKI, TINA R SCHAUER, MARY LOGELAND, D.SMITH, ANDREW
-LAVALLA, ANTHONY THOMSON, BEN MOORE, BRIAN SOSTEK, CHRISTOPHER
-WALKER, F. S. M., GALINA LEVINGER, JACKIE O'SHEA, JACQUELINE
-ERICKSON, JOHN MURDOCH, JOHN REMINGTON GRAHAM, LEE BAUERS,
-MARK DYAAS, MIKE GOULD, MING THE CAT, MING THE NEIGHBOR CAT,
-MINNIE MOUSE, NADIA LANDON, NICHOLAS HAIG, SAM GRAPEVINE JEDI,
-SARAH KIEFER, SETH SWEEP, SHAWN MCGREEVY, STEVEN SCHWARTZ,
-JOHN JESKE, ANIA URBAN, MIKE DUST, EDWARD LUNAT, ANY
-REPUBLICAN, SARAH BENCH, BOB CORRICK, BLANK, JENNIFER GABRIEL,
-KATE BENTSON, TOM FRATTALLONE, JERRY VAN CLEAVE, PATTY CASEY,
-JOE MUERAY, ANDREW PLESKO, JOY RIVERA, RICHARD ALLENDORF, JAN
-REED, PRINCE, JIM YOUNG
+CASE, JOEL B. BIERBACH, JUSTIN HENRY, AMANDA MILLS, ANN DE
+GROOT, ASPEN DEVRIES, ISABELLE DENNY, KEVIN MIDDLEBROOK, NONE
+ABOVE, PATRICK GLYNN, ROB HENSLEY, WALTER "ROCKY" ROCKENSTEIN,
+WILLIAM BUNDY, WILLIAM SEELEY, YUSEFA L. JOHNSON, BILL
+HELGESON, DREWRAFFE, GARY HARTKE, JASON BLUMENTHAL, JOHN A.
+KELLY, MARTIN SCHIRBER, MATT TALBERG, MIKE BRANDT, MYSELF,
+PETER J. JOHNSON, REBECCA ERICKSON RAMGREN, TOM, SONDRA
+SAMUELS, MIKE LOGAN, JOHN BENNINGHOLT, BRUCE WADMAN, CAM
+GORDON, CHARLES NEERLAND, ED KIM, FIX AUTOMARK, GARY SCHIFF,
+JOHN HEALY, JOHN VCHULEK, LINDSEY DIEDRICH, MARTIN P KELLER,
+MARV DAVIDOU, PAT BOULAY, RACHEL HOITZER COMMON SENSE PARTY,
+RYAN OLSEN, SUSAN M. JAGODZINSKI, TINA R SCHAUER, MARY
+LOGELAND, D.SMITH, ANDREW LAVALLA, ANTHONY THOMSON, BEN MOORE,
+BRIAN SOSTEK, CHRISTOPHER WALKER, F. S. M., GALINA LEVINGER,
+JACKIE O'SHEA, JACQUELINE ERICKSON, JOHN MURDOCH, JOHN
+REMINGTON GRAHAM, LEE BAUERS, MARK DYAAS, MIKE GOULD, MING THE
+CAT, MING THE NEIGHBOR CAT, MINNIE MOUSE, NADIA LANDON,
+NICHOLAS HAIG, SAM GRAPEVINE JEDI, SARAH KIEFER, SETH SWEEP,
+SHAWN MCGREEVY, STEVEN SCHWARTZ, JOHN JESKE, ANIA URBAN, MIKE
+DUST, EDWARD LUNAT, ANY REPUBLICAN, SARAH BENCH, BOB CORRICK,
+BLANK, JENNIFER GABRIEL, KATE BENTSON, TOM FRATTALLONE, JERRY
+VAN CLEAVE, PATTY CASEY, JOE MUERAY, ANDREW PLESKO, JOY
+RIVERA, RICHARD ALLENDORF, JAN REED, PRINCE, JIM YOUNG
 
-==== Round 1 ====
+==== Round 2 ====
                       name votes
                        RYB  4130
                        KOL  2105
@@ -110,8 +571,8 @@ REED, PRINCE, JIM YOUNG
               MICKEY MOUSE     2
       SHARON SAYLES-BELTON     2
                 STEVE MINN     2
-               AL STANBURY     1
               A.M. RAHAMAN     1
+               AL STANBURY     1
                 ANYA BUSCH     1
          ANYBODY BUT RYBAK     1
                ANYONE ELSE     1
@@ -162,20 +623,20 @@ REED, PRINCE, JIM YOUNG
           KEITH DVORAK JR.     1
                   KELLIHER     1
                 KEN AVIDOR     1
-            KENNETH ZIMMER     1
                   KEN RICH     1
+            KENNETH ZIMMER     1
      KEVIN RICHARD TERRELL     1
                LAPRACE ALI     1
          LINDA G RASMUSSEN     1
-             LIZARD PEOPLE     1
              LIZ WIELINSKI     1
+             LIZARD PEOPLE     1
+                   M. CALI     1
                 MAC CHEESE     1
                MARK ANDREW     1
                MARK DAYTON     1
           MARK ENGEBRETSON     1
                MARK KAPLAN     1
              MATTHEW CRAIG     1
-                   M. CALI     1
              MICHAEL ARETT     1
               MICHAEL BOHO     1
              MICHAEL GOULD     1
@@ -187,13 +648,13 @@ REED, PRINCE, JIM YOUNG
                      OLIVE     1
                  ORA HOKES     1
                      OTHER     1
-            PATRICIA SCOTT     1
                  PAT SCOTT     1
+            PATRICIA SCOTT     1
                PAUL OSTROW     1
       PAUL THOMAS WILLIAMS     1
          PETER MACLAUGHLIN     1
-         PETER MCGLAUGHLIN     1
          PETER MC LAUGHLIN     1
+         PETER MCGLAUGHLIN     1
           RANDALL DAVIDSON     1
           RANDALL URLACHER     1
              RENE STANDISH     1
@@ -217,7 +678,7 @@ REED, PRINCE, JIM YOUNG
           WAVERLEY DEVRIES     1
                       YHWH     1
 Dropping candidate(s) with 1 votes:
-AL STANBURY, A.M. RAHAMAN, ANYA BUSCH, ANYBODY BUT RYBAK,
+A.M. RAHAMAN, AL STANBURY, ANYA BUSCH, ANYBODY BUT RYBAK,
 ANYONE ELSE, ARVONNE FRASER, BLAKE W. REIMER, BOB MILLER (NRP
 DIRECTOR), BOB MILLER OF THE NRP, BOB NOBLE, BRUCE MARSH, C.
 CHARLES CARUSO, CHAD SNYDER, CHRIS COLEMAN, CHRISTIAN SANDE,
@@ -230,22 +691,22 @@ HAMID KARZI, JAMES HURRLE, JAMES ROWE, JAMES STROUD JR.,
 JARVIS WRIGHT, JAYMIE KELLY, JAYSON HOCKERT, JEFF EDMAN, JEFF
 SCHROEDER, JENNY WILLARD, JIM COHEN, JOE BOVE, JOHN D.
 BORCHERT, JOHN SATHER, JOHN TELMAN, KEITH DVORAK JR.,
-KELLIHER, KEN AVIDOR, KENNETH ZIMMER, KEN RICH, KEVIN RICHARD
-TERRELL, LAPRACE ALI, LINDA G RASMUSSEN, LIZARD PEOPLE, LIZ
-WIELINSKI, MAC CHEESE, MARK ANDREW, MARK DAYTON, MARK
-ENGEBRETSON, MARK KAPLAN, MATTHEW CRAIG, M. CALI, MICHAEL
-ARETT, MICHAEL BOHO, MICHAEL GOULD, MICHAEL HENLEY, MICHAEL
-JULIUS, MIDTOWN FARMERS MARKET, NATHAN WATTERS, NO ONE, OLIVE,
-ORA HOKES, OTHER, PATRICIA SCOTT, PAT SCOTT, PAUL OSTROW, PAUL
-THOMAS WILLIAMS, PETER MACLAUGHLIN, PETER MCGLAUGHLIN, PETER
-MC LAUGHLIN, RANDALL DAVIDSON, RANDALL URLACHER, RENE
+KELLIHER, KEN AVIDOR, KEN RICH, KENNETH ZIMMER, KEVIN RICHARD
+TERRELL, LAPRACE ALI, LINDA G RASMUSSEN, LIZ WIELINSKI, LIZARD
+PEOPLE, M. CALI, MAC CHEESE, MARK ANDREW, MARK DAYTON, MARK
+ENGEBRETSON, MARK KAPLAN, MATTHEW CRAIG, MICHAEL ARETT,
+MICHAEL BOHO, MICHAEL GOULD, MICHAEL HENLEY, MICHAEL JULIUS,
+MIDTOWN FARMERS MARKET, NATHAN WATTERS, NO ONE, OLIVE, ORA
+HOKES, OTHER, PAT SCOTT, PATRICIA SCOTT, PAUL OSTROW, PAUL
+THOMAS WILLIAMS, PETER MACLAUGHLIN, PETER MC LAUGHLIN, PETER
+MCGLAUGHLIN, RANDALL DAVIDSON, RANDALL URLACHER, RENE
 STANDISH, REPUBLICAN, ROBERT "BOB" MILLER, ROBERT MILLER NRP,
 ROBERT THOMPSON, RODNEY LOSSON, RORY S. WEISS, RUSSELL BAKER,
 RUTH HANSON, RYB , SGT. SHRIVER, STEVEN BELTON, THERESA
 HAUSER, TIMOTHY JACKSON, TODD JOHNSON, TOM MATOUSHEK, TRICIA
 DEHLER, VERN GAGNE, WAVERLEY DEVRIES, YHWH
 
-==== Round 2 ====
+==== Round 3 ====
                  name votes
                   RYB  4146
                   KOL  2116
@@ -273,7 +734,7 @@ DEHLER, VERN GAGNE, WAVERLEY DEVRIES, YHWH
 Dropping candidate(s) with 2 votes:
 MICKEY MOUSE, SHARON SAYLES-BELTON, STEVE MINN
 
-==== Round 3 ====
+==== Round 4 ====
                  name votes
                   RYB  4147
                   KOL  2116
@@ -299,7 +760,7 @@ Dropping candidate(s) with 3 votes:
 BOB MILLER NRP, BOB MILLER, NRP, DORON CLARK, LISA MCDONALD,
 SHARON SAYLES BELTON
 
-==== Round 4 ====
+==== Round 5 ====
               name votes
                RYB  4151
                KOL  2121
@@ -319,7 +780,7 @@ SHARON SAYLES BELTON
 Dropping candidate(s) with 4 votes:
 NONE OF THE ABOVE
 
-==== Round 5 ====
+==== Round 6 ====
              name votes
               RYB  4151
               KOL  2122
@@ -338,7 +799,7 @@ NONE OF THE ABOVE
 Dropping candidate(s) with 7 votes:
 ROBERT MILLER
 
-==== Round 6 ====
+==== Round 7 ====
              name votes
               RYB  4154
               KOL  2122
@@ -356,7 +817,7 @@ ROBERT MILLER
 Dropping candidate(s) with 10 votes:
 PETER MCLAUGHLIN
 
-==== Round 7 ====
+==== Round 8 ====
        name votes
         RYB  4156
         KOL  2124
@@ -373,7 +834,7 @@ PETER MCLAUGHLIN
 Dropping candidate(s) with 46 votes:
 BOB MILLER
 
-==== Round 8 ====
+==== Round 9 ====
  name votes
   RYB  4165
   KOL  2143
@@ -389,7 +850,7 @@ BOB MILLER
 Dropping candidate(s) with 128 votes:
 WIL
 
-==== Round 9 ====
+==== Round 10 ====
  name votes
   RYB  4180
   KOL  2161
@@ -404,7 +865,7 @@ WIL
 Dropping candidate(s) with 200 votes:
 CAR
 
-==== Round 10 ====
+==== Round 11 ====
  name votes
   RYB  4213
   KOL  2196
@@ -418,7 +879,7 @@ CAR
 Dropping candidate(s) with 224 votes:
 MCG
 
-==== Round 11 ====
+==== Round 12 ====
  name votes
   RYB  4242
   KOL  2252
@@ -431,7 +892,7 @@ MCG
 Dropping candidate(s) with 316 votes:
 EVE
 
-==== Round 12 ====
+==== Round 13 ====
  name votes
   RYB  4312
   KOL  2286
@@ -443,7 +904,7 @@ EVE
 Dropping candidate(s) with 438 votes:
 LOM
 
-==== Round 13 ====
+==== Round 14 ====
  name votes
   RYB  4428
   KOL  2348
@@ -454,7 +915,7 @@ LOM
 Dropping candidate(s) with 611 votes:
 FIS
 
-==== Round 14 ====
+==== Round 15 ====
  name votes
   RYB  4670
   KOL  2435
@@ -464,7 +925,7 @@ FIS
 Dropping candidate(s) with 957 votes:
 CLA
 
-==== Round 15 ====
+==== Round 16 ====
  name votes
   RYB  4849
   KOL  2701
@@ -473,9 +934,9 @@ CLA
 Dropping candidate(s) with 1141 votes:
 FRA
 
-==== Round 16 ====
+==== Round 17 ====
  name votes
   RYB  5183
   KOL  2871
   FLO  1679
-Winner is RYB, with 5183 votes.
+Winner is RYB, with 53.25% of the votes in the last round.

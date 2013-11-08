@@ -1,17 +1,23 @@
-Dropping candidate(s) with zero 1st rank votes, but have some
-2nd and 3rd-rank votes:
-Fred
-
 ==== Round 1 ====
   name votes
  James     2
+ Frank     1
  Arnie     1
  David     1
- Frank     1
-Dropping candidate(s) with 1 votes:
-Arnie, David, Frank
+  Fred     0
+Dropping candidate(s) with 0 votes:
+Fred
 
 ==== Round 2 ====
   name votes
+ James     2
+ Frank     1
+ Arnie     1
+ David     1
+Dropping candidate(s) with 1 votes:
+Frank, Arnie, David
+
+==== Round 3 ====
+  name votes
  James     3
-Winner is James, with 3 votes.
+Winner is James, with 100% of the votes in the last round.
