@@ -1,0 +1,15 @@
+Dropping candidate(s) with zero 1st rank votes, but have some 2nd and 3rd-rank votes:
+ Fred 
+
+==== Round 1 ====
+  name votes
+ James     2
+ Arnie     1
+ David     1
+ Frank     1
+Dropping candidate(s) with 1 votes: Arnie, David, Frank 
+
+==== Round 2 ====
+  name votes
+ James     3
+Winner is James, with 3 votes
