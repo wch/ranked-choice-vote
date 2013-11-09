@@ -10,7 +10,7 @@ process_file <- function(filename, outfile = NULL) {
     on.exit(sink())
   }
 
-  # Read data: Columns are named V1, V2, V3, corresponding to 1st, 2nd, 3rd vote
+  # Read data: first column is first-rank vote, second is second, etc.
   dat <- suppressWarnings(read.csv(filename, header = FALSE,
     fill = TRUE, stringsAsFactors = FALSE))
 
@@ -22,9 +22,9 @@ process_file <- function(filename, outfile = NULL) {
 }
 
 
-# Takes a matrix of vote data and finds the winner. Each row of the matrix
-# represents one voter's vote, and each column represents the first-ranked vote,
-# the second-ranked vote, and so on.
+# Takes a matrix of vote data and finds the winner recursively. Each row of the
+# matrix represents one voter's vote, and each column represents the
+# first-ranked vote, the second-ranked vote, and so on.
 calculate_ranked_choice <- function(dat, round = 1) {
   # Get names of all candidates
   all_names <- unique(as.vector(dat))
