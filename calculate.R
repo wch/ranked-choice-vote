@@ -1,7 +1,30 @@
-wrap <- function(..., sep = "", width = 80) {
-  paste(strwrap(paste(..., sep = sep), width = width), collapse = "\n")
+# Read in a CSV file, calculate winner, and write to file
+process_file <- function(filename, outfile = NULL) {
+  if (is.null(outfile)) {
+    outfile <- sub("\\.csv$", "-results.txt", filename)
+  }
+
+  # Save results to file
+  if (outfile != stdout()) {
+    sink(outfile)
+    on.exit(sink())
+  }
+
+  # Read data: Columns are named V1, V2, V3, corresponding to 1st, 2nd, 3rd vote
+  dat <- suppressWarnings(read.csv(filename, header = FALSE,
+    fill = TRUE, stringsAsFactors = FALSE))
+
+  # Convert to matrix and replace blanks with NA
+  dat <- as.matrix(dat)
+  dat[dat == ""] <- NA
+
+  calculate_ranked_choice(dat)
 }
 
+
+# Takes a matrix of vote data and finds the winner. Each row of the matrix
+# represents one voter's vote, and each column represents the first-ranked vote,
+# the second-ranked vote, and so on.
 calculate_ranked_choice <- function(dat, round = 1) {
   # Get names of all candidates
   all_names <- unique(as.vector(dat))
@@ -20,7 +43,7 @@ calculate_ranked_choice <- function(dat, round = 1) {
   cat("==== Round", round, "====\n")
   print(counts, row.names = FALSE)
 
-  # If we've reached the end
+  # Do we have a winner? ------------------------------------------------------
   if (max(counts$votes) > sum(counts$votes)/2) {
     maxrow <- counts$votes == max(counts$votes)
     cat(wrap(
@@ -36,19 +59,21 @@ calculate_ranked_choice <- function(dat, round = 1) {
   # Drop those who got the lowest number of first-rank votes
   # (can be more than one)
   lowest_votes <- min(counts$votes)
+
   if (nrow(counts) > 1 && all(counts$votes == lowest_votes)) {
     cat(wrap("Tie between ", paste(counts$name, collapse = ", "), "."))
     return(invisible(counts$name))
   }
+
   drop_names <- counts$name[counts$votes == lowest_votes]
   cat(wrap("Dropping candidate(s) with ", lowest_votes, " votes:"))
   cat("\n")
   cat(wrap(paste(drop_names, collapse = ", ")))
   cat("\n\n")
 
-  # Remove all instances of the lowest vote-getters
+  # Remove all instances of the lowest vote-getters, and shift the ranked votes
+  # as necessary
   dat[dat %in% drop_names] <- NA
-
   dat <- shift_left_na(dat)
 
   # Recurse
@@ -76,28 +101,11 @@ shift_left_na <- function(dat) {
   dat
 }
 
-# Read in a CSV file, calculate winner, and write to file
-process_file <- function(filename, outfile = NULL) {
-  if (is.null(outfile)) {
-    outfile <- sub("\\.csv$", "-results.txt", filename)
-  }
-
-  # Save results to file
-  if (outfile != stdout()) {
-    sink(outfile)
-    on.exit(sink())
-  }
-
-  # Read data: Columns are named V1, V2, V3, corresponding to 1st, 2nd, 3rd vote
-  dat <- suppressWarnings(read.csv(filename, header = FALSE,
-    fill = TRUE, stringsAsFactors = FALSE))
-
-  # Convert to matrix and replace blanks with NA
-  dat <- as.matrix(dat)
-  dat[dat == ""] <- NA
-
-  calculate_ranked_choice(dat)
+# Wrap text to specified column
+wrap <- function(..., sep = "", width = 80) {
+  paste(strwrap(paste(..., sep = sep), width = width), collapse = "\n")
 }
+
 
 process_file("SampleData.csv")
 process_file("SampleDataLarger.csv")
