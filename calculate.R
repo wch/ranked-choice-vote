@@ -1,5 +1,5 @@
 wrap <- function(..., sep = "", width = 80) {
-  paste(strwrap(paste(..., sep = sep)), collapse = "\n")
+  paste(strwrap(paste(..., sep = sep), width = width), collapse = "\n")
 }
 
 calculate_ranked_choice <- function(dat, round = 1) {
