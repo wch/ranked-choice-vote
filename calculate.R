@@ -92,9 +92,7 @@ shift_left_na <- function(dat) {
 
     # For any NA's, shift over values from all subsequent columns and fill last
     # with NA.
-    for (j in i:(ncols-1)) {
-      dat[na_idx, j] <- dat[na_idx, j+1]
-    }
+    dat[na_idx, i:(ncols-1)] <- dat[na_idx, (i+1):ncols]
     dat[na_idx, ncols] <- NA
   }
 
