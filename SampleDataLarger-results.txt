@@ -1,4 +1,6 @@
 ==== Round 1 ====
+Promoting votes to fill gaps in rankings...
+Counts of rank-1 votes:
                               name votes
                                RYB  4130
                                KOL  2105
@@ -529,6 +531,8 @@ JOE MUERAY, ANDREW PLESKO, JOY RIVERA, RICHARD ALLENDORF, JAN REED, PRINCE, JIM
 YOUNG
 
 ==== Round 2 ====
+Promoting votes to fill gaps in rankings...
+Counts of rank-1 votes:
                       name votes
                        RYB  4130
                        KOL  2105
@@ -683,6 +687,8 @@ BELTON, THERESA HAUSER, TIMOTHY JACKSON, TODD JOHNSON, TOM MATOUSHEK, TRICIA
 DEHLER, VERN GAGNE, WAVERLEY DEVRIES, YHWH
 
 ==== Round 3 ====
+Promoting votes to fill gaps in rankings...
+Counts of rank-1 votes:
                  name votes
                   RYB  4146
                   KOL  2116
@@ -711,6 +717,8 @@ Dropping candidate(s) with 2 votes:
 MICKEY MOUSE, SHARON SAYLES-BELTON, STEVE MINN
 
 ==== Round 4 ====
+Promoting votes to fill gaps in rankings...
+Counts of rank-1 votes:
                  name votes
                   RYB  4147
                   KOL  2116
@@ -737,6 +745,8 @@ BOB MILLER NRP, BOB MILLER, NRP, DORON CLARK, LISA MCDONALD, SHARON SAYLES
 BELTON
 
 ==== Round 5 ====
+Promoting votes to fill gaps in rankings...
+Counts of rank-1 votes:
               name votes
                RYB  4151
                KOL  2121
@@ -757,6 +767,8 @@ Dropping candidate(s) with 4 votes:
 NONE OF THE ABOVE
 
 ==== Round 6 ====
+Promoting votes to fill gaps in rankings...
+Counts of rank-1 votes:
              name votes
               RYB  4151
               KOL  2122
@@ -776,6 +788,8 @@ Dropping candidate(s) with 7 votes:
 ROBERT MILLER
 
 ==== Round 7 ====
+Promoting votes to fill gaps in rankings...
+Counts of rank-1 votes:
              name votes
               RYB  4154
               KOL  2122
@@ -794,6 +808,8 @@ Dropping candidate(s) with 10 votes:
 PETER MCLAUGHLIN
 
 ==== Round 8 ====
+Promoting votes to fill gaps in rankings...
+Counts of rank-1 votes:
        name votes
         RYB  4156
         KOL  2124
@@ -811,6 +827,8 @@ Dropping candidate(s) with 46 votes:
 BOB MILLER
 
 ==== Round 9 ====
+Promoting votes to fill gaps in rankings...
+Counts of rank-1 votes:
  name votes
   RYB  4165
   KOL  2143
@@ -827,6 +845,8 @@ Dropping candidate(s) with 128 votes:
 WIL
 
 ==== Round 10 ====
+Promoting votes to fill gaps in rankings...
+Counts of rank-1 votes:
  name votes
   RYB  4180
   KOL  2161
@@ -842,6 +862,8 @@ Dropping candidate(s) with 200 votes:
 CAR
 
 ==== Round 11 ====
+Promoting votes to fill gaps in rankings...
+Counts of rank-1 votes:
  name votes
   RYB  4213
   KOL  2196
@@ -856,6 +878,8 @@ Dropping candidate(s) with 224 votes:
 MCG
 
 ==== Round 12 ====
+Promoting votes to fill gaps in rankings...
+Counts of rank-1 votes:
  name votes
   RYB  4242
   KOL  2252
@@ -869,6 +893,8 @@ Dropping candidate(s) with 316 votes:
 EVE
 
 ==== Round 13 ====
+Promoting votes to fill gaps in rankings...
+Counts of rank-1 votes:
  name votes
   RYB  4312
   KOL  2286
@@ -881,6 +907,8 @@ Dropping candidate(s) with 438 votes:
 LOM
 
 ==== Round 14 ====
+Promoting votes to fill gaps in rankings...
+Counts of rank-1 votes:
  name votes
   RYB  4428
   KOL  2348
@@ -892,6 +920,8 @@ Dropping candidate(s) with 611 votes:
 FIS
 
 ==== Round 15 ====
+Promoting votes to fill gaps in rankings...
+Counts of rank-1 votes:
  name votes
   RYB  4670
   KOL  2435
@@ -902,6 +932,8 @@ Dropping candidate(s) with 957 votes:
 CLA
 
 ==== Round 16 ====
+Promoting votes to fill gaps in rankings...
+Counts of rank-1 votes:
  name votes
   RYB  4849
   KOL  2701
@@ -911,6 +943,8 @@ Dropping candidate(s) with 1141 votes:
 FRA
 
 ==== Round 17 ====
+Promoting votes to fill gaps in rankings...
+Counts of rank-1 votes:
  name votes
   RYB  5183
   KOL  2871

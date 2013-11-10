@@ -1,4 +1,6 @@
 ==== Round 1 ====
+Promoting votes to fill gaps in rankings...
+Counts of rank-1 votes:
   name votes
  James     2
  Frank     1
@@ -9,6 +11,8 @@ Dropping candidate(s) with 0 votes:
 Fred
 
 ==== Round 2 ====
+Promoting votes to fill gaps in rankings...
+Counts of rank-1 votes:
   name votes
  James     2
  Frank     1
@@ -18,6 +22,8 @@ Dropping candidate(s) with 1 votes:
 Frank, Arnie, David
 
 ==== Round 3 ====
+Promoting votes to fill gaps in rankings...
+Counts of rank-1 votes:
   name votes
  James     3
 Winner is James, with 100% of the votes in the last round.

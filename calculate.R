@@ -26,6 +26,12 @@ process_file <- function(filename, outfile = NULL) {
 # matrix represents one voter's vote, and each column represents the
 # first-ranked vote, the second-ranked vote, and so on.
 calculate_ranked_choice <- function(dat, round = 1) {
+  cat("==== Round", round, "====\n")
+
+  # Shift the ranked votes, removing gaps in 1st, 2nd, 3rd, etc.
+  cat("Promoting votes to fill gaps in rankings...\n")
+  dat <- shift_left_na(dat)
+
   # Get names of all candidates
   all_names <- unique(as.vector(dat))
   all_names <- all_names[!is.na(all_names)]
@@ -40,7 +46,7 @@ calculate_ranked_choice <- function(dat, round = 1) {
   counts <- counts[order(counts$votes, decreasing = TRUE), ]
 
   # Print the table -----------------------------------------------------------
-  cat("==== Round", round, "====\n")
+  cat("Counts of rank-1 votes:\n")
   print(counts, row.names = FALSE)
 
   # Do we have a winner? ------------------------------------------------------
@@ -62,6 +68,7 @@ calculate_ranked_choice <- function(dat, round = 1) {
 
   if (nrow(counts) > 1 && all(counts$votes == lowest_votes)) {
     cat(wrap("Tie between ", paste(counts$name, collapse = ", "), "."))
+    cat("\n")
     return(invisible(counts$name))
   }
 
@@ -71,10 +78,8 @@ calculate_ranked_choice <- function(dat, round = 1) {
   cat(wrap(paste(drop_names, collapse = ", ")))
   cat("\n\n")
 
-  # Remove all instances of the lowest vote-getters, and shift the ranked votes
-  # as necessary
+  # Remove all instances of the lowest vote-getters
   dat[dat %in% drop_names] <- NA
-  dat <- shift_left_na(dat)
 
   # Recurse
   calculate_ranked_choice(dat, round + 1)
