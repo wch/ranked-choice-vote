@@ -111,4 +111,7 @@ wrap <- function(..., sep = "", width = 80) {
 
 
 process_file("SampleData.csv")
+process_file("SampleData2.csv")
+process_file("SampleData3.csv")
+process_file("SampleData4.csv")
 process_file("SampleDataLarger.csv")

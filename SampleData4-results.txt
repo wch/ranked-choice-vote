@@ -1,0 +1,30 @@
+==== Round 1 ====
+Promoting votes to fill gaps in rankings...
+Counts of rank-1 votes:
+  name votes
+ Emily     1
+ Alice     1
+  Bert     1
+  Fred     0
+  Mary     0
+ Frank     0
+ James     0
+Dropping candidate(s) with 0 votes:
+Fred, Mary, Frank, James
+
+==== Round 2 ====
+Promoting votes to fill gaps in rankings...
+Counts of rank-1 votes:
+  name votes
+ Alice     2
+ Emily     1
+  Bert     1
+Dropping candidate(s) with 1 votes:
+Emily, Bert
+
+==== Round 3 ====
+Promoting votes to fill gaps in rankings...
+Counts of rank-1 votes:
+  name votes
+ Alice     2
+Winner is Alice, with 100% of the votes in the last round.

@@ -1,0 +1,24 @@
+==== Round 1 ====
+Promoting votes to fill gaps in rankings...
+Counts of rank-1 votes:
+  name votes
+ Emily     1
+ Alice     1
+  Bert     1
+   Ian     1
+  Fred     0
+ James     0
+  Mary     0
+ Frank     0
+Dropping candidate(s) with 0 votes:
+Fred, James, Mary, Frank
+
+==== Round 2 ====
+Promoting votes to fill gaps in rankings...
+Counts of rank-1 votes:
+  name votes
+ Emily     1
+ Alice     1
+  Bert     1
+   Ian     1
+Tie between Emily, Alice, Bert, Ian.
