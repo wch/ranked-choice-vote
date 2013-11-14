@@ -1,0 +1,17 @@
+==== Round 1 ====
+Promoting votes to fill gaps in rankings...
+Counts of rank-1 votes:
+    name votes
+   Alice     2
+     Bob     1
+ Charles     1
+   David     1
+Dropping candidate(s) with 1 votes:
+Bob, Charles, David
+
+==== Round 2 ====
+Promoting votes to fill gaps in rankings...
+Counts of rank-1 votes:
+  name votes
+ Alice     2
+Winner is Alice, with 100% of the votes in the last round.
